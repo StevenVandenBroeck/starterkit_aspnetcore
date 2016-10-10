@@ -1,0 +1,26 @@
+{
+  "name": "starterkit",
+  "version": "1.0.0",
+  "description": "StarterKit Web app",
+  "main": "main.js",
+  "repository": {
+    "url": "https://amaryne.visualstudio.com/DefaultCollection/_git/starterkit"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Vanden Broeck",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-typescript": "^2.13.6",
+    "node-sass": "^3.8.0"
+  }
+}
