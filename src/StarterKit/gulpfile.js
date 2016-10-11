@@ -46,7 +46,7 @@ gulp.task('sass', function () {
 
 /** Typescript task **/
 gulp.task('ts', function () {
-    var tsFiles = path.resolve(sourceFiles.ts, '**');
+    var tsFiles = path.resolve(sourceFiles.ts, '**/*.ts');
     return gulp.src(tsFiles)
         .pipe(ts(tsProject)).js
         .pipe(gulp.dest(wwwRootPaths.js));

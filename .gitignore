@@ -13,6 +13,9 @@ wwwroot/
 .grunt/
 .vscode/settings.json
 
+WebClient/ts/**/*.js
+WebClient/ts/**/*.js.map
+
 # site css
 site.css
 site.css.map
